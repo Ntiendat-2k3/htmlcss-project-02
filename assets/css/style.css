@@ -1,4 +1,4 @@
-/*/ Set độ roongjc ho cha rồi mà con lớn hơn thì vẫn bị chòi ra ; ví dụ img , set cha rồi , ảnh mà to hơn thì vẫn bị chòi ra => set cho cả img nữa */
+/*/ Set độ rộng ho cha rồi mà con lớn hơn thì vẫn bị chòi ra ; ví dụ img , set cha rồi , ảnh mà to hơn thì vẫn bị chòi ra => set cho cả img nữa */
 * {
      box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ a {
 }
 .header.fixed {
      position: sticky;
-     top: -28px; /* cuộn xuống nav cách trên 4px */
+     top: -28px; /* cuộn xuống, nav cách trên 4px chứ để như ban đầu thùa nhiều khoảng trắng */
      z-index: 99;
 }
 .header .body {
